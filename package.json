@@ -1,0 +1,18 @@
+{
+  "name": "gulp_babel_example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.5.0",
+    "gulp-babel": "^6.1.2"
+  }
+}
