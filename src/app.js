@@ -1,10 +1,10 @@
 'use strict';
 
-let name = `Ryan`;
+const name = `Ryan`;
 
-let add = (a,b) =>  a + b;
+const add = (a,b) =>  a + b;
 
-let sum = (...numbers) => {
+const sum = (...numbers) => {
 	return numbers.reduce((prev,cur) => {
 		return prev + curr;
 	});
