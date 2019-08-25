@@ -1,18 +1,26 @@
 {
-  "name": "gulp_babel_example",
+  "name": "gulp_babel",
   "version": "1.0.0",
-  "description": "",
-  "main": "src/app.js",
+  "description": "Learn Gulp and Babel",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "MIT",
-  "devDependencies": {
-    "gulp": "^3.9.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lets-learn/gulp-babel.git"
   },
-  "dependencies": {
-    "babel-preset-es2015": "^6.5.0",
-    "gulp-babel": "^6.1.2"
+  "author": "Ek C.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lets-learn/gulp-babel/issues"
+  },
+  "homepage": "https://github.com/lets-learn/gulp-babel#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0"
   }
 }
